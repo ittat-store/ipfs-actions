@@ -10,8 +10,8 @@
   "keywords": [
     "github",
     "actions",
-    "web3-storage“，
-    ”ipfs“
+    "web3-storage“,
+    ”ipfs“,
   ],
   "author": "",
   "license": "MIT",
@@ -20,6 +20,8 @@
   },
   "homepage": "",
   "dependencies": {
-    "web3.storage": "^3.5.7"
+    "web3.storage": "^3.5.7",
+    "@actions/core": "1.4.0",
+    "@actions/github": "5.0.0",
   }
 }
