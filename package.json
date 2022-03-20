@@ -1,0 +1,25 @@
+
+{
+  "name": "web3-storage-uploader",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "github",
+    "actions",
+    "web3-storage“，
+    ”ipfs“
+  ],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": ""
+  },
+  "homepage": "",
+  "dependencies": {
+    "web3.storage": "^3.5.7"
+  }
+}
