@@ -1,0 +1,16 @@
+name: 'todo'
+description: 'todo'
+author: 'todo'
+branding:
+  icon: upload
+  color: red
+inputs: 
+  WEB3STORAGE_TOKEN:
+    description: 'is the hostname or IP address to connect to'
+  github:
+    description: 'Github env'
+  success: 
+    description: 'Job.status env'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
