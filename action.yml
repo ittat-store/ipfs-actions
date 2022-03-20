@@ -2,15 +2,18 @@ name: 'todo'
 description: 'todo'
 author: 'todo'
 branding:
-  icon: upload
-  color: red
+  icon: 'upload-cloud'
+  color: 'green'
+inputs:
 inputs: 
-  WEB3STORAGE_TOKEN:
-    description: 'is the hostname or IP address to connect to'
-  github:
-    description: 'Github env'
-  success: 
-    description: 'Job.status env'
+  token:
+    description: 'token'
+outputs:
+  hash:
+    description: 'IPFS CID'  
 runs:
-  using: 'docker'
-  image: 'Dockerfile'
+  using: 'node14'
+  main: 'index.js'
+# runs:
+#   using: 'docker'
+#   image: 'Dockerfile'
