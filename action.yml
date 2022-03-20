@@ -9,7 +9,7 @@ inputs:
   token:
     description: 'token'
 outputs:
-  hash:
+  cid:
     description: 'IPFS CID'  
 runs:
   using: 'node14'
